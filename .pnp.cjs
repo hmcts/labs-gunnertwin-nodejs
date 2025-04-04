@@ -3314,10 +3314,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@babel/runtime", [\
-        ["npm:7.25.0", {\
-          "packageLocation": "./.yarn/cache/@babel-runtime-npm-7.25.0-a7bca33687-4a2a374a58.zip/node_modules/@babel/runtime/",\
+        ["npm:7.27.0", {\
+          "packageLocation": "./.yarn/cache/@babel-runtime-npm-7.27.0-67ce9cb54f-3e73d9e65f.zip/node_modules/@babel/runtime/",\
           "packageDependencies": [\
-            ["@babel/runtime", "npm:7.25.0"],\
+            ["@babel/runtime", "npm:7.27.0"],\
             ["regenerator-runtime", "npm:0.14.1"]\
           ],\
           "linkType": "HARD"\
@@ -15277,7 +15277,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/metro-runtime-npm-0.80.10-fdf57a3ce1-fc137a9912.zip/node_modules/metro-runtime/",\
           "packageDependencies": [\
             ["metro-runtime", "npm:0.80.10"],\
-            ["@babel/runtime", "npm:7.25.0"],\
+            ["@babel/runtime", "npm:7.27.0"],\
             ["flow-enums-runtime", "npm:0.0.6"]\
           ],\
           "linkType": "HARD"\
@@ -17858,7 +17858,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/regenerator-transform-npm-0.15.2-109e57a69f-20b6f9377d.zip/node_modules/regenerator-transform/",\
           "packageDependencies": [\
             ["regenerator-transform", "npm:0.15.2"],\
-            ["@babel/runtime", "npm:7.25.0"]\
+            ["@babel/runtime", "npm:7.27.0"]\
           ],\
           "linkType": "HARD"\
         }]\
