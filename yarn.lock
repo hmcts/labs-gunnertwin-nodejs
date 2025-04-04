@@ -5015,7 +5015,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:8.29.0":
+"@typescript-eslint/eslint-plugin@npm:^8.29.0":
   version: 8.29.0
   resolution: "@typescript-eslint/eslint-plugin@npm:8.29.0"
   dependencies:
@@ -5036,7 +5036,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:8.29.0":
+"@typescript-eslint/parser@npm:^8.29.0":
   version: 8.29.0
   resolution: "@typescript-eslint/parser@npm:8.29.0"
   dependencies:
@@ -5361,8 +5361,8 @@ __metadata:
     "@types/require-directory": 2.1.6
     "@types/serve-favicon": 2.5.7
     "@types/supertest": ^6.0.3
-    "@typescript-eslint/eslint-plugin": 8.29.0
-    "@typescript-eslint/parser": 8.29.0
+    "@typescript-eslint/eslint-plugin": ^8.29.0
+    "@typescript-eslint/parser": ^8.29.0
     applicationinsights: 3.6.0
     axios: 1.8.4
     axios-debug-log: 1.0.0
@@ -5377,10 +5377,10 @@ __metadata:
     css-loader: 7.1.2
     csurf: 1.11.0
     debug: 4.4.0
-    eslint: 9.23.0
+    eslint: latest
     eslint-config-prettier: 10.1.1
     eslint-plugin-import: 2.31.0
-    eslint-plugin-jest: 28.11.0
+    eslint-plugin-jest: ^28.11.0
     express: 5.1.0
     express-nunjucks: 3.1.2
     glob: 11.0.1
@@ -8834,7 +8834,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:28.11.0":
+"eslint-plugin-jest@npm:^28.11.0":
   version: 28.11.0
   resolution: "eslint-plugin-jest@npm:28.11.0"
   dependencies:
@@ -8893,7 +8893,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:9.23.0":
+"eslint@npm:latest":
   version: 9.23.0
   resolution: "eslint@npm:9.23.0"
   dependencies:
