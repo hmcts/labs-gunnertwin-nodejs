@@ -1,6 +1,6 @@
 # labs-gunnertwin-nodejs
 
-Deploying a Node.js application
+Deploying a NodeJS application (golden path)
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ Deploying a Node.js application
 
 Running the application requires the following tools to be installed in your environment:
 
-- [Node.js](https://nodejs.org/) v18.0.0 or later
+- [Node.js](https://nodejs.org/) v12.0.0 or later
 - [yarn](https://yarnpkg.com/)
 - [Docker](https://www.docker.com)
 
