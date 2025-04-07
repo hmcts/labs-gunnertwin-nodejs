@@ -49,7 +49,7 @@
     "express": "4.21.0",
     "express-nunjucks": "2.2.5",
     "glob": "10.4.5",
-    "govuk-frontend": "4.6.0",
+    "govuk-frontend": "^5.9.0",
     "helmet": "6.2.0",
     "jquery": "3.7.0",
     "lodash": "4.17.21",
