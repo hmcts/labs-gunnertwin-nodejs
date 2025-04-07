@@ -5018,7 +5018,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@codeceptjs-helper-npm-2.0.4-95fd9d1c11-004e229f15.zip/node_modules/@codeceptjs/helper/",\
           "packageDependencies": [\
             ["@codeceptjs/helper", "npm:2.0.4"],\
-            ["typescript", "patch:typescript@npm%3A5.8.3#~builtin<compat/typescript>::version=5.8.3&hash=74658d"]\
+            ["typescript", "patch:typescript@npm%3A5.8.3#~builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -21311,10 +21311,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["patch:typescript@npm%3A5.8.3#~builtin<compat/typescript>::version=5.8.3&hash=74658d", {\
-          "packageLocation": "./.yarn/cache/typescript-patch-1cbd67adcb-1b503525a8.zip/node_modules/typescript/",\
+        ["patch:typescript@npm%3A5.8.3#~builtin<compat/typescript>::version=5.8.3&hash=5786d5", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-3c513e8543-f1743b6850.zip/node_modules/typescript/",\
           "packageDependencies": [\
-            ["typescript", "patch:typescript@npm%3A5.8.3#~builtin<compat/typescript>::version=5.8.3&hash=74658d"]\
+            ["typescript", "patch:typescript@npm%3A5.8.3#~builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
           ],\
           "linkType": "HARD"\
         }]\
