@@ -3844,7 +3844,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/chai@npm:*":
+"@types/chai@npm:*, @types/chai@npm:^5.2.1":
   version: 5.2.1
   resolution: "@types/chai@npm:5.2.1"
   dependencies:
@@ -4639,6 +4639,7 @@ __metadata:
     "@hmcts/nodejs-logging": 4.0.4
     "@hmcts/properties-volume": 0.0.14
     "@types/body-parser": 1.19.2
+    "@types/chai": ^5.2.1
     "@types/chai-as-promised": 7.1.5
     "@types/config": 3.3.0
     "@types/cookie-parser": 1.4.3
