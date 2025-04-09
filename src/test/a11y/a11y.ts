@@ -1,6 +1,6 @@
-import { app } from '../../main/app';
-
 import * as supertest from 'supertest';
+
+import { app } from '../../main/app';
 
 const pa11y = require('pa11y');
 
@@ -36,7 +36,6 @@ class PallyIssue {
 
 function ensurePageCallWillSucceed(url: string): Promise<void> {
   return agent.get(url).then((res: supertest.Response) => {
-    console.log(`ensurePageCallWillSucceed: URL=${url}, Status=${res.status}`);
     if (res.redirect) {
       throw new Error(`Call to ${url} resulted in a redirect to ${res.get('Location')}`);
     }
@@ -47,15 +46,11 @@ function ensurePageCallWillSucceed(url: string): Promise<void> {
 }
 
 function runPally(url: string): Promise<Pa11yResult> {
-  console.log(`runPally: Starting Pa11y on ${url}`);
-  console.time('pa11y');
   const result = pa11y(url, {
     hideElements: '.govuk-footer__licence-logo, .govuk-header__logotype-crown',
     timeout: 120000, // 120s for Jenkins
     chromeLaunchConfig: { args: ['--no-sandbox', '--disable-setuid-sandbox'] },
-    log: { debug: console.log, error: console.error, info: console.info },
   });
-  console.timeEnd('pa11y');
   return result;
 }
 
@@ -71,7 +66,6 @@ function testAccessibility(url: string): void {
   describe(`Page ${url}`, () => {
     test('should have no accessibility errors', async () => {
       const testUrl = agent.get(url).url;
-      console.log(`Testing accessibility for URL: ${testUrl}`);
       await ensurePageCallWillSucceed(url);
       const result = await runPally(testUrl);
       expect(result.issues).toEqual(expect.any(Array));
