@@ -36,7 +36,7 @@ const RAW_RUNTIME_STATE =
           ["@hmcts/nodejs-healthcheck", "npm:1.8.5"],\
           ["@hmcts/nodejs-logging", "npm:4.0.4"],\
           ["@hmcts/properties-volume", "npm:0.0.14"],\
-          ["@types/body-parser", "npm:1.19.2"],\
+          ["@types/body-parser", "npm:1.19.5"],\
           ["@types/chai", "npm:5.2.1"],\
           ["@types/chai-as-promised", "npm:7.1.5"],\
           ["@types/config", "npm:3.3.0"],\
@@ -6857,15 +6857,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/body-parser", [\
-      ["npm:1.19.2", {\
-        "packageLocation": "./.yarn/cache/@types-body-parser-npm-1.19.2-f845b7b538-e17840c7d7.zip/node_modules/@types/body-parser/",\
-        "packageDependencies": [\
-          ["@types/body-parser", "npm:1.19.2"],\
-          ["@types/connect", "npm:3.4.38"],\
-          ["@types/node", "npm:18.19.43"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:1.19.5", {\
         "packageLocation": "./.yarn/cache/@types-body-parser-npm-1.19.5-97fb106976-1e251118c4.zip/node_modules/@types/body-parser/",\
         "packageDependencies": [\
@@ -7929,7 +7920,7 @@ const RAW_RUNTIME_STATE =
           ["@hmcts/nodejs-healthcheck", "npm:1.8.5"],\
           ["@hmcts/nodejs-logging", "npm:4.0.4"],\
           ["@hmcts/properties-volume", "npm:0.0.14"],\
-          ["@types/body-parser", "npm:1.19.2"],\
+          ["@types/body-parser", "npm:1.19.5"],\
           ["@types/chai", "npm:5.2.1"],\
           ["@types/chai-as-promised", "npm:7.1.5"],\
           ["@types/config", "npm:3.3.0"],\
@@ -9373,7 +9364,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["browserslist", "npm:4.24.4"],\
           ["caniuse-lite", "npm:1.0.30001712"],\
-          ["electron-to-chromium", "npm:1.5.132"],\
+          ["electron-to-chromium", "npm:1.5.134"],\
           ["node-releases", "npm:2.0.19"],\
           ["update-browserslist-db", "virtual:2fdeb5face9914bb5fd94c70f084d153c80d2f09e5aabee010e4220b248dc23fca8f73c7beed0195e45ae6e2b1cb25388f709d7bfc4f00e473d573887faf4e5c#npm:1.1.3"]\
         ],\
@@ -11474,10 +11465,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.5.132", {\
-        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.132-711be94529-ff50f38e26.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.5.134", {\
+        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.134-928bc1027b-9a8b8407cd.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.5.132"]\
+          ["electron-to-chromium", "npm:1.5.134"]\
         ],\
         "linkType": "HARD"\
       }],\
